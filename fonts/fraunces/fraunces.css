@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Fraunces';
+  font-weight: 400;
+  src: url('Fraunces_72pt-Regular.ttf') format('ttf'),
+    url('d1f0701eb531c27ac5088a4372e63504.woff') format('woff'),
+    url('d1f0701eb531c27ac5088a4372e63504.woff2') format('woff2');
+}
