@@ -1,0 +1,93 @@
+.companies {
+  max-width: 1130px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companies__title {
+  width: 366px;
+  line-height: 38px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.companies__nav {
+  width: 100%;
+  margin: 34px 0 160px;
+  display: flex;
+  justify-content: center;
+  gap: 61px;
+}
+
+.companies__link {
+  width: 159px;
+  display: flex;
+  align-items: center;
+  line-height: 33px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Fraunces';
+  color: #969fa4;
+}
+
+.companies__link-icon {
+  width: 28px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.cards {
+  width: 1150px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 355px));
+  grid-template-rows: repeat(1, minmax(150px, 250px));
+  gap: 32px;
+}
+
+.card {
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:first-child {
+  background-color: #faea73;
+}
+
+.card:nth-of-type(2) {
+  background-color: #cceff6;
+}
+
+.card:last-child {
+  background-color: #f7cedc;
+}
+
+.card__icon {
+  width: 55px;
+  height: 55px;
+  align-self: flex-start;
+  margin: 32px 0 8px 32px;
+}
+
+.card__title {
+  width: 240px;
+  align-self: flex-start;
+  margin-left: 32px;
+  margin-bottom: 11px;
+  line-height: 31px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Fraunces';
+}
+
+.card__text {
+  width: 291px;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Inter';
+}

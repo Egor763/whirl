@@ -17,7 +17,11 @@
 }
 
 .page__tasks {
-  margin: 70px 0 120px;
+  margin: 100px 0 120px;
+}
+
+.page__relaxing {
+  margin: 120px 0;
 }
 
 .hover__link:hover {
