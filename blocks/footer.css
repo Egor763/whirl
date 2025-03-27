@@ -1,0 +1,155 @@
+.footer {
+  max-width: 1230px;
+  width: 100%;
+}
+
+.footer__container {
+  width: 1130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo-container {
+  width: 143px;
+}
+
+.footer__logo {
+  width: 135px;
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.footer__text {
+  width: 147px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.footer__text-blue {
+  color: #0070a0;
+}
+
+.footer__info-container {
+  width: 681px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links-container {
+  width: 216px;
+}
+
+.footer__links-title {
+  width: 48px;
+  margin-bottom: 16px;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.footer__links {
+  width: 132px;
+}
+
+.footer__links-item {
+  width: 132px;
+  margin-top: 10px;
+}
+
+.footer__links-item:first-child {
+  margin: 0;
+}
+
+.footer__link {
+  width: 132px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter';
+  color: #626a72;
+}
+
+.footer__newsletter-container {
+  width: 216px;
+}
+
+.footer__newsletter-title {
+  width: 82px;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.footer__newsletter-text {
+  width: 216px;
+  margin: 12px 0 33px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.footer__form {
+  width: 216px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input {
+  all: unset;
+  width: 216px;
+  height: 27px;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.form__button {
+  border: 1px solid red;
+  width: 22px;
+  height: 28px;
+}
+
+.form__button-icon {
+  width: 22px;
+  height: 28px;
+}
+
+.footer__copyright-container {
+  width: 1130px;
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #dee5eb;
+  padding-top: 36px;
+}
+
+.footer__copyright {
+  width: 390px;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.footer__copyright-blue {
+  width: 68px;
+  color: #0070a0;
+}
+
+.footer__icons {
+  width: 106px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__icon {
+  width: 22px;
+  height: 23px;
+}

@@ -1,6 +1,12 @@
 .whirl {
   max-width: 1130px;
   width: 100%;
+  background-color: #e6f7ff;
+}
+
+.whirl__container {
+  width: 503px;
+  margin-left: 64px;
 }
 
 .whirl__title {
@@ -33,7 +39,7 @@
   color: white;
 }
 
-.whirl__container {
+.whirl__texts-container {
   width: 503px;
   display: flex;
   gap: 32px;
