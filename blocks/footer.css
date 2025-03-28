@@ -110,9 +110,10 @@
 }
 
 .form__button {
-  border: 1px solid red;
   width: 22px;
   height: 28px;
+  background: transparent;
+  border: none;
 }
 
 .form__button-icon {

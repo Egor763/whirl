@@ -57,6 +57,7 @@
 
 .about-website__container-blue {
   width: 100%;
+  height: 500px;
   display: flex;
   gap: 187px;
   background-color: #006b99;

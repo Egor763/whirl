@@ -64,11 +64,6 @@
   font-size: 16px;
   font-weight: 400;
   font-family: 'Inter';
-  display: none;
-}
-
-.relaxing__cell-text_active {
-  display: flex;
 }
 
 .relaxing__cell-button {
