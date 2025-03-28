@@ -4,6 +4,8 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  outline: none;
+  box-shadow: none;
 }
 
 .page {
